@@ -1,15 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block head %}
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sensive Blog - Home</title>
-    <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
-
-    <link rel="stylesheet" href="{% static 'styles.min.css' %}">
-  </head>
+{% block title %}
+  <title>Sensive Blog - Home</title>
 {% endblock %}
 {% block content %}
     <main class="site-main">
@@ -115,7 +107,6 @@
                 </div>
               </div>
             </div>
-
             <!-- Start Blog Post Siddebar -->
             <div class="col-lg-4 sidebar-widgets">
               <div class="widget-wrap">
